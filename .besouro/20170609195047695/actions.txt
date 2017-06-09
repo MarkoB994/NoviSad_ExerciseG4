@@ -55,3 +55,19 @@ EditAction 1497031758815 TestBowling.java 767 4 10 4
 UnitTestCaseAction 1497031777207 TestBowling.java FAIL
 UnitTestSessionAction 1497031777210 TestBowling.java FAIL
 EditAction 1497031837453 Frame.java 881 8 10 0
+UnitTestCaseAction 1497031843723 TestBowling.java OK
+UnitTestSessionAction 1497031843725 TestBowling.java OK
+FileOpenedAction 1497031890853 BowlingException.java 58 0 0 0
+RefactoringAction 1497031946285 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031947314 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031949846 TestBowling.java RENAME test_=>void test_P FIELD
+RefactoringAction 1497031951873 TestBowling.java RENAME test_P=>void test_Provera FIELD
+RefactoringAction 1497031963399 TestBowling.java RENAME test_Provera=>void test_Proverap FIELD
+RefactoringAction 1497031966929 TestBowling.java RENAME test_Proverap=>void test_ProveraPogresnih FIELD
+RefactoringAction 1497031970483 TestBowling.java RENAME test_ProveraPogresnih=>void test_ProveraPogresnihVrednosti FIELD
+RefactoringAction 1497031975531 TestBowling.java RENAME test_ProveraPogresnihVrednosti=>void test_ProveraPogresnihVrednostiBacanja FIELD
+RefactoringAction 1497031976558 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanja=>void test_ProveraPogresnihVrednostiBacanjaU FIELD
+RefactoringAction 1497031980121 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanjaU=>void test_ProveraPogresnihVrednostiBacanjaUFrejmu FIELD
+RefactoringAction 1497031981646 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanjaUFrejmu=>void test_ProveraPogresnihVrednostiBacanjaUFrejmu() METHOD
+RefactoringAction 1497032019403 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanjaUFrejmu()=>void test_ProveraPogresnihVrednostiPrvogBacanjaUFrejmu() METHOD
+EditAction 1497032034885 TestBowling.java 918 5 11 4

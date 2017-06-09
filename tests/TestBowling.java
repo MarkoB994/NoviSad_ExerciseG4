@@ -29,5 +29,10 @@ public class TestBowling {
 		Frame frame = new Frame(6,4);
 		assertTrue("Provera spera", frame.isSpare());
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_ProveraPogresnihVrednostiPrvogBacanjaUFrejmu(){
+		Frame frame = new Frame(11,5);
+	}
 
 }
