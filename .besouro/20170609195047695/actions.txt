@@ -1,0 +1,8 @@
+FileOpenedAction 1497030648153 Frame.java 671 6 7 0
+FileOpenedAction 1497030655457 TestBowling.java 165 1 1 0
+RefactoringAction 1497030743501 TestBowling.java RENAME test()=>void test_() METHOD
+RefactoringAction 1497030744521 TestBowling.java RENAME test_()=>void test_Po() METHOD
+RefactoringAction 1497030746042 TestBowling.java RENAME test_Po()=>void test_Pocetak() METHOD
+RefactoringAction 1497030748058 TestBowling.java RENAME test_Pocetak()=>void test_PocetakPartije() METHOD
+FileOpenedAction 1497030978254 BowlingGame.java 708 4 1 0
+EditAction 1497031042554 TestBowling.java 292 1 3 1
