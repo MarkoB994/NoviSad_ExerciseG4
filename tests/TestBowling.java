@@ -49,5 +49,17 @@ public class TestBowling {
 	public void test_ProveraNegativnihVrednostiDrugogBacanjaUFrejmu() throws BowlingException{
 		Frame frame = new Frame(7,-5);
 	}
+	
+	@Test
+	public void test_ProveraOdigranogBrojaFrejmovaUPartiji() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,8));
+		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(4,3));
+		
+		String brojOdigranihFrejmova = game.getNumberOfFrames();
+		
+		assertEquals("Provera broja odigranih frejmova", "3", brojOdigranihFrejmova);
+	}
 
 }

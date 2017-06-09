@@ -108,3 +108,16 @@ EditAction 1497032590621 TestBowling.java 1542 8 14 4
 UnitTestCaseAction 1497032596186 TestBowling.java FAIL
 UnitTestSessionAction 1497032596187 TestBowling.java FAIL
 EditAction 1497032611462 Frame.java 1167 8 12 0
+UnitTestCaseAction 1497032618195 TestBowling.java OK
+UnitTestSessionAction 1497032618196 TestBowling.java OK
+RefactoringAction 1497032721978 TestBowling.java ADD void test FIELD
+RefactoringAction 1497032723044 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497032731089 TestBowling.java RENAME test_=>void test_Provera FIELD
+RefactoringAction 1497032736663 TestBowling.java RENAME test_Provera=>void test_ProveraOdigranih FIELD
+RefactoringAction 1497032738698 TestBowling.java RENAME test_ProveraOdigranih=>void test_ProveraOdigranihFre FIELD
+RefactoringAction 1497032741231 TestBowling.java RENAME test_ProveraOdigranihFre=>void test_ProveraOdigran FIELD
+RefactoringAction 1497032742258 TestBowling.java RENAME test_ProveraOdigran=>void test_ProveraOdigranog FIELD
+RefactoringAction 1497032747859 TestBowling.java RENAME test_ProveraOdigranog=>void test_ProveraOdigranogBrojaFrejmovaU FIELD
+RefactoringAction 1497032750398 TestBowling.java RENAME test_ProveraOdigranogBrojaFrejmovaU=>void test_ProveraOdigranogBrojaFrejmovaUPartiji FIELD
+RefactoringAction 1497032752430 TestBowling.java RENAME test_ProveraOdigranogBrojaFrejmovaUPartiji=>void test_ProveraOdigranogBrojaFrejmovaUPartiji() METHOD
+EditAction 1497032960970 TestBowling.java 1933 9 20 5
