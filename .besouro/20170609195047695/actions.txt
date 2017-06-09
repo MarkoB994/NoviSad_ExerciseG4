@@ -216,3 +216,4 @@ RefactoringAction 1497034919352 TestBowling.java RENAME test_rezultat=>void test
 RefactoringAction 1497034923890 TestBowling.java RENAME test_rezultatNakon=>void test_rezultatNakonDesetBacanja FIELD
 RefactoringAction 1497034924936 TestBowling.java RENAME test_rezultatNakonDesetBacanja=>void test_rezultatNakonDesetBacanja() METHOD
 EditAction 1497035590062 TestBowling.java 4042 13 57 8
+CompilationAction 1497035593174 TestBowling.java
