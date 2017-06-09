@@ -6,7 +6,9 @@ public class Frame {
 	
 	}
 	
-	public Frame(int firstThrow, int secondThrow){
+	public Frame(int firstThrow, int secondThrow) throws BowlingException{
+		if(firstThrow > 10)
+			throw new BowlingException("Vise od mogucih 10 oborenih u prvom bacanju");
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}

@@ -75,3 +75,4 @@ UnitTestCaseAction 1497032040256 TestBowling.java FAIL
 UnitTestSessionAction 1497032040258 TestBowling.java FAIL
 RefactoringAction 1497032148545 BowlingException.java ADD BowlingException(String) METHOD
 EditAction 1497032157482 BowlingException.java 120 1 1 0
+EditAction 1497032179063 Frame.java 1007 8 11 0
