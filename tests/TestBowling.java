@@ -17,5 +17,11 @@ public class TestBowling {
 		String rezultat = frame.getScore();
 		assertEquals("Poeni ostvareni u prvom frejmu", "9", rezultat);
 	}
+	
+	@Test
+	public void test_ProveraStrajkaFrejma(){
+		Frame frame = new Frame(10,0);
+		assertTrue("Provera strajka", frame.isStrike());
+	}
 
 }

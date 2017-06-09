@@ -32,3 +32,14 @@ EditAction 1497031411955 TestBowling.java 485 2 6 2
 UnitTestCaseAction 1497031416849 TestBowling.java FAIL
 UnitTestSessionAction 1497031416852 TestBowling.java FAIL
 EditAction 1497031463206 Frame.java 791 8 8 0
+UnitTestCaseAction 1497031473319 TestBowling.java OK
+UnitTestSessionAction 1497031473320 TestBowling.java OK
+RefactoringAction 1497031512680 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031519281 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031525455 TestBowling.java RENAME test_=>void test_Provera FIELD
+RefactoringAction 1497031526571 TestBowling.java RENAME test_Provera=>void test_ProveraS FIELD
+RefactoringAction 1497031531615 TestBowling.java RENAME test_ProveraS=>void test_ProveraStrike FIELD
+RefactoringAction 1497031535142 TestBowling.java RENAME test_ProveraStrike=>void test_ProveraStrajka FIELD
+RefactoringAction 1497031543173 TestBowling.java RENAME test_ProveraStrajka=>void test_ProveraStrajkaFrejma FIELD
+RefactoringAction 1497031544698 TestBowling.java RENAME test_ProveraStrajkaFrejma=>void test_ProveraStrajkaFrejma() METHOD
+EditAction 1497031654325 TestBowling.java 629 3 8 3
