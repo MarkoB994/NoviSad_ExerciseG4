@@ -23,5 +23,11 @@ public class TestBowling {
 		Frame frame = new Frame(10,0);
 		assertTrue("Provera strajka", frame.isStrike());
 	}
+	
+	@Test
+	public void test_ProveraSperaFrejma(){
+		Frame frame = new Frame(6,4);
+		assertTrue("Provera spera", frame.isSpare());
+	}
 
 }

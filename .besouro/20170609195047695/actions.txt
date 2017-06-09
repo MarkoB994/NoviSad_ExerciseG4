@@ -46,3 +46,9 @@ EditAction 1497031654325 TestBowling.java 629 3 8 3
 UnitTestCaseAction 1497031659454 TestBowling.java FAIL
 UnitTestSessionAction 1497031659456 TestBowling.java FAIL
 EditAction 1497031706850 Frame.java 814 8 9 0
+UnitTestCaseAction 1497031727067 TestBowling.java OK
+UnitTestSessionAction 1497031727069 TestBowling.java OK
+RefactoringAction 1497031733066 TestBowling.java ADD void test_ProveraStrajkaFrejma()/2 METHOD
+RefactoringAction 1497031737107 TestBowling.java RENAME test_ProveraStrajkaFrejma()/2=>void test_ProveraStperaFrejma() METHOD
+RefactoringAction 1497031740138 TestBowling.java RENAME test_ProveraStperaFrejma()=>void test_ProveraSperaFrejma() METHOD
+EditAction 1497031758815 TestBowling.java 767 4 10 4
