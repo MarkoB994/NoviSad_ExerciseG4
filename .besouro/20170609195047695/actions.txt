@@ -153,3 +153,19 @@ RefactoringAction 1497033656302 TestBowling.java RENAME test_ProveraDobijenogBon
 RefactoringAction 1497033657334 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonSpa=>void test_ProveraDobijenogBonusaNakonSpaer FIELD
 RefactoringAction 1497033659871 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonSpaer=>void test_ProveraDobijenogBonusaNakonSpare() METHOD
 EditAction 1497033808268 TestBowling.java 2902 11 38 6
+CompilationAction 1497033811260 TestBowling.java
+UnitTestCaseAction 1497033820099 TestBowling.java FAIL
+UnitTestSessionAction 1497033820100 TestBowling.java FAIL
+RefactoringAction 1497033954056 BowlingGame.java ADD boolean bonus/2 FIELD
+RefactoringAction 1497033956090 BowlingGame.java RENAME bonus/2=>boolean b FIELD
+RefactoringAction 1497033957638 BowlingGame.java RENAME b=>boolean bonus/2 FIELD
+RefactoringAction 1497033958675 BowlingGame.java RENAME bonus/2=>boolean bonusZ FIELD
+RefactoringAction 1497033959727 BowlingGame.java RENAME bonusZ=>boolean bonusZa FIELD
+RefactoringAction 1497033961270 BowlingGame.java RENAME bonusZa=>boolean bonus/2 FIELD
+RefactoringAction 1497033964303 BowlingGame.java RENAME bonus/2=>boolean bonusSeCE FIELD
+RefactoringAction 1497033967336 BowlingGame.java RENAME bonusSeCE=>boolean bonusSeCeka FIELD
+RefactoringAction 1497033977876 BowlingGame.java RENAME bonusSeCeka=>boolean bonusZA FIELD
+RefactoringAction 1497033979909 BowlingGame.java RENAME bonusZA=>boolean bonusZaS FIELD
+RefactoringAction 1497033981451 BowlingGame.java RENAME bonusZaS=>boolean bonusZaSpare FIELD
+RefactoringAction 1497034060395 BowlingGame.java ADD int rezultat FIELD
+EditAction 1497034205515 BowlingGame.java 1167 5 8 0
