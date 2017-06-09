@@ -94,3 +94,6 @@ RefactoringAction 1497032490710 TestBowling.java RENAME test_ProveraPogresnihVre
 RefactoringAction 1497032492750 TestBowling.java RENAME test_ProveraNeVrednostiDrugogBacanjaUFrejmu()=>void test_ProveraNegativnihVrednostiDrugogBacanjaUFrejmu() METHOD
 RefactoringAction 1497032497783 TestBowling.java RENAME test_ProveraNegativnihVrednostiDrugogBacanjaUFrejmu()=>void test_ProveraNegativnihVrednostiPrvogBacanjaUFrejmu() METHOD
 EditAction 1497032503846 TestBowling.java 1365 7 13 4
+UnitTestCaseAction 1497032511457 TestBowling.java FAIL
+UnitTestSessionAction 1497032511461 TestBowling.java FAIL
+EditAction 1497032541853 Frame.java 1148 8 12 0
