@@ -185,3 +185,8 @@ RefactoringAction 1497034300011 TestBowling.java RENAME test_ProveraDobijenogBon
 RefactoringAction 1497034302062 TestBowling.java RENAME test_ProveraDobijenogBonusaNakon=>void test_ProveraDobijenogBonusaNakonStrike FIELD
 RefactoringAction 1497034303110 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonStrike=>void test_ProveraDobijenogBonusaNakonStrike() METHOD
 EditAction 1497034364140 TestBowling.java 3276 12 43 7
+UnitTestCaseAction 1497034370509 TestBowling.java FAIL
+UnitTestSessionAction 1497034370511 TestBowling.java FAIL
+RefactoringAction 1497034432602 BowlingGame.java ADD boolean bonus/2 FIELD
+RefactoringAction 1497034435631 BowlingGame.java RENAME bonus/2=>boolean bonusZaStrike FIELD
+EditAction 1497034489760 BowlingGame.java 1431 6 11 0
