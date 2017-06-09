@@ -100,3 +100,8 @@ EditAction 1497032541853 Frame.java 1148 8 12 0
 UnitTestCaseAction 1497032547906 TestBowling.java FAIL
 UnitTestSessionAction 1497032547909 TestBowling.java FAIL
 EditAction 1497032562687 Frame.java 1148 8 12 0
+UnitTestCaseAction 1497032567691 TestBowling.java OK
+UnitTestSessionAction 1497032567693 TestBowling.java OK
+RefactoringAction 1497032577613 TestBowling.java ADD void test_ProveraNegativnihVrednostiPrvogBacanjaUFrejmu()/2 METHOD
+RefactoringAction 1497032584650 TestBowling.java RENAME test_ProveraNegativnihVrednostiPrvogBacanjaUFrejmu()/2=>void test_ProveraNegativnihVrednostiDrugogBacanjaUFrejmu() METHOD
+EditAction 1497032590621 TestBowling.java 1542 8 14 4
