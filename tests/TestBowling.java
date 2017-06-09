@@ -79,5 +79,16 @@ public class TestBowling {
 		game.addFrame(new Frame(4,3));
 		
 	}
+	
+	@Test
+	public void test_ProveraDobijenogBonusaNakonSpare() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(4,6));
+		game.addFrame(new Frame(5,4));
+		
+		String rezultat = game.getScore();
+		//4+6 + bonus 5 zbog narednog bacanja + 5 + 4
+		assertEquals("Provera dobijenog bonusa nakon spare", "24", rezultat);
+	}
 
 }

@@ -138,3 +138,18 @@ EditAction 1497033163681 TestBowling.java 2535 10 33 5
 UnitTestCaseAction 1497033169809 TestBowling.java FAIL
 UnitTestSessionAction 1497033169810 TestBowling.java FAIL
 EditAction 1497033236528 BowlingGame.java 884 5 4 0
+UnitTestCaseAction 1497033243216 TestBowling.java OK
+UnitTestSessionAction 1497033243219 TestBowling.java OK
+RefactoringAction 1497033632927 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497033635963 TestBowling.java RENAME test_=>void test_P FIELD
+RefactoringAction 1497033637509 TestBowling.java RENAME test_P=>void test_Provera FIELD
+RefactoringAction 1497033643076 TestBowling.java RENAME test_Provera=>void test_ProveraDobijenogBonu FIELD
+RefactoringAction 1497033644117 TestBowling.java RENAME test_ProveraDobijenogBonu=>void test_ProveraDobijenogBonusa FIELD
+RefactoringAction 1497033646152 TestBowling.java RENAME test_ProveraDobijenogBonusa=>void test_ProveraDobijenogBonusaN FIELD
+RefactoringAction 1497033647694 TestBowling.java RENAME test_ProveraDobijenogBonusaN=>void test_ProveraDobijenogBonusaNako FIELD
+RefactoringAction 1497033649230 TestBowling.java RENAME test_ProveraDobijenogBonusaNako=>void test_ProveraDobijenogBonusaNakon FIELD
+RefactoringAction 1497033654774 TestBowling.java RENAME test_ProveraDobijenogBonusaNakon=>void test_ProveraDobijenogBonusaNakonS FIELD
+RefactoringAction 1497033656302 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonS=>void test_ProveraDobijenogBonusaNakonSpa FIELD
+RefactoringAction 1497033657334 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonSpa=>void test_ProveraDobijenogBonusaNakonSpaer FIELD
+RefactoringAction 1497033659871 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonSpaer=>void test_ProveraDobijenogBonusaNakonSpare() METHOD
+EditAction 1497033808268 TestBowling.java 2902 11 38 6
