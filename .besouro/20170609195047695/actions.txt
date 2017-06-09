@@ -71,3 +71,7 @@ RefactoringAction 1497031980121 TestBowling.java RENAME test_ProveraPogresnihVre
 RefactoringAction 1497031981646 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanjaUFrejmu=>void test_ProveraPogresnihVrednostiBacanjaUFrejmu() METHOD
 RefactoringAction 1497032019403 TestBowling.java RENAME test_ProveraPogresnihVrednostiBacanjaUFrejmu()=>void test_ProveraPogresnihVrednostiPrvogBacanjaUFrejmu() METHOD
 EditAction 1497032034885 TestBowling.java 918 5 11 4
+UnitTestCaseAction 1497032040256 TestBowling.java FAIL
+UnitTestSessionAction 1497032040258 TestBowling.java FAIL
+RefactoringAction 1497032148545 BowlingException.java ADD BowlingException(String) METHOD
+EditAction 1497032157482 BowlingException.java 120 1 1 0
