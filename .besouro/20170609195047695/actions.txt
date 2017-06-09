@@ -135,3 +135,6 @@ RefactoringAction 1497033107350 TestBowling.java RENAME test_ProveraOdigranogBro
 RefactoringAction 1497033113425 TestBowling.java RENAME test_ProveraVOdigranogBrojaFrejmovaUPartiji()=>void test_ProveraViseOdDozvoljenoOdigranogBrojaFrejmovaUPartiji() METHOD
 RefactoringAction 1497033121961 TestBowling.java RENAME test_ProveraViseOdDozvoljenoOdigranogBrojaFrejmovaUPartiji()=>void test_ProveraViseOdDozvoljenoOdigranoBrojaFrejmovaUPartiji() METHOD
 EditAction 1497033163681 TestBowling.java 2535 10 33 5
+UnitTestCaseAction 1497033169809 TestBowling.java FAIL
+UnitTestSessionAction 1497033169810 TestBowling.java FAIL
+EditAction 1497033236528 BowlingGame.java 884 5 4 0
