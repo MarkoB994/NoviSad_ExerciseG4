@@ -128,3 +128,10 @@ RefactoringAction 1497033048425 BowlingGame.java ADD String nu FIELD
 RefactoringAction 1497033056454 BowlingGame.java RENAME nu=>String getNumberOfFrames FIELD
 RefactoringAction 1497033057485 BowlingGame.java RENAME getNumberOfFrames=>String getNumberOfFrames() METHOD
 EditAction 1497033075960 BowlingGame.java 781 5 3 0
+UnitTestCaseAction 1497033082873 TestBowling.java OK
+UnitTestSessionAction 1497033082874 TestBowling.java OK
+RefactoringAction 1497033097810 TestBowling.java ADD void test_ProveraOdigranogBrojaFrejmovaUPartiji()/2 METHOD
+RefactoringAction 1497033107350 TestBowling.java RENAME test_ProveraOdigranogBrojaFrejmovaUPartiji()/2=>void test_ProveraVOdigranogBrojaFrejmovaUPartiji() METHOD
+RefactoringAction 1497033113425 TestBowling.java RENAME test_ProveraVOdigranogBrojaFrejmovaUPartiji()=>void test_ProveraViseOdDozvoljenoOdigranogBrojaFrejmovaUPartiji() METHOD
+RefactoringAction 1497033121961 TestBowling.java RENAME test_ProveraViseOdDozvoljenoOdigranogBrojaFrejmovaUPartiji()=>void test_ProveraViseOdDozvoljenoOdigranoBrojaFrejmovaUPartiji() METHOD
+EditAction 1497033163681 TestBowling.java 2535 10 33 5

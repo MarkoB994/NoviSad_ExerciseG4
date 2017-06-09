@@ -61,5 +61,23 @@ public class TestBowling {
 		
 		assertEquals("Provera broja odigranih frejmova", "3", brojOdigranihFrejmova);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_ProveraViseOdDozvoljenoOdigranoBrojaFrejmovaUPartiji() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,8));
+		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(4,3));
+		game.addFrame(new Frame(1,8));
+		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(4,3));
+		game.addFrame(new Frame(1,8));
+		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(4,3));
+		game.addFrame(new Frame(1,8));
+		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(4,3));
+		
+	}
 
 }
