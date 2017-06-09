@@ -101,5 +101,8 @@ public class TestBowling {
 		//10 + bonus 5 + 4 zbog naredna 2 bacanja + 5 + 4
 		assertEquals("Provera dobijenog bonusa nakon spare", "28", rezultat);
 	}
+	
+	@Test
+	public void 
 
 }
