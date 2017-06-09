@@ -76,3 +76,11 @@ UnitTestSessionAction 1497032040258 TestBowling.java FAIL
 RefactoringAction 1497032148545 BowlingException.java ADD BowlingException(String) METHOD
 EditAction 1497032157482 BowlingException.java 120 1 1 0
 EditAction 1497032179063 Frame.java 1007 8 11 0
+CompilationAction 1497032181782 TestBowling.java
+CompilationAction 1497032335709 TestBowling.java
+UnitTestCaseAction 1497032338952 TestBowling.java OK
+UnitTestSessionAction 1497032338954 TestBowling.java OK
+RefactoringAction 1497032346865 TestBowling.java ADD void test_ProveraPogresnihVrednostiPrvogBacanjaUFrejmu()/2 METHOD
+RefactoringAction 1497032351391 TestBowling.java RENAME test_ProveraPogresnihVrednostiPrvogBacanjaUFrejmu()/2=>void test_ProveraPogresnihVrednostiDBacanjaUFrejmu() METHOD
+RefactoringAction 1497032352918 TestBowling.java RENAME test_ProveraPogresnihVrednostiDBacanjaUFrejmu()=>void test_ProveraPogresnihVrednostiDrugogBacanjaUFrejmu() METHOD
+EditAction 1497032361783 TestBowling.java 1189 6 12 4
