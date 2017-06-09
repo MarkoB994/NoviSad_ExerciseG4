@@ -36,4 +36,8 @@ public class Frame {
 		//to be implemented
 		return false;
 	}
+	
+	public String getScore(){
+		return score() + "";
+	}
 }

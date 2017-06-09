@@ -12,3 +12,8 @@ UnitTestCaseAction 1497031056468 TestBowling.java FAIL
 UnitTestSessionAction 1497031056470 TestBowling.java FAIL
 RefactoringAction 1497031070935 Frame.java ADD Frame() METHOD
 EditAction 1497031097187 Frame.java 699 7 7 0
+CompilationAction 1497031099996 TestBowling.java
+RefactoringAction 1497031114245 Frame.java ADD String getSco FIELD
+RefactoringAction 1497031115777 Frame.java RENAME getSco=>String getScore FIELD
+RefactoringAction 1497031117321 Frame.java RENAME getScore=>String getScore() METHOD
+EditAction 1497031146178 Frame.java 758 8 8 0
