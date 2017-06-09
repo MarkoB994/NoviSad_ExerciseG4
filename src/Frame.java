@@ -10,7 +10,7 @@ public class Frame {
 		if(firstThrow > 10 || firstThrow < 0)
 			throw new BowlingException("Vise od mogucih 10 oborenih u prvom bacanju");
 		this.firstThrow = firstThrow;
-		if(secondThrow > 10 - firstThrow)
+		if(secondThrow > 10 - firstThrow || secondThrow < 0)
 			throw new BowlingException("Vise od mogucih 10 oborenih cunjeva iz dva bacanja");
 		this.secondThrow = secondThrow;
 	}
