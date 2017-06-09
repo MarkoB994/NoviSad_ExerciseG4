@@ -201,3 +201,4 @@ RefactoringAction 1497034664691 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1497034664692 BowlingGame.java ADD String getNumberOfFrames() METHOD
 RefactoringAction 1497034664695 BowlingGame.java ADD String getScore() METHOD
 EditAction 1497034691261 BowlingGame.java 1587 6 11 0
+EditAction 1497034740916 BowlingGame.java 1676 6 11 0

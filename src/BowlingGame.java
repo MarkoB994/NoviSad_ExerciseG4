@@ -19,6 +19,7 @@ public class BowlingGame {
 		if(frames.size() == 10)
 			throw new BowlingException("Igra je zavrsena");
 		frames.add(frame);
+		//Pozivam metodu setBonus da proveri da li je ostvaren neki od bonusa pri ovom frejmu
 		setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 	}
 	
