@@ -190,3 +190,14 @@ UnitTestSessionAction 1497034370511 TestBowling.java FAIL
 RefactoringAction 1497034432602 BowlingGame.java ADD boolean bonus/2 FIELD
 RefactoringAction 1497034435631 BowlingGame.java RENAME bonus/2=>boolean bonusZaStrike FIELD
 EditAction 1497034489760 BowlingGame.java 1431 6 11 0
+UnitTestCaseAction 1497034496046 TestBowling.java OK
+UnitTestSessionAction 1497034496047 TestBowling.java OK
+RefactoringAction 1497034648150 BowlingGame.java REMOVE getNumberOfFrames() METHOD
+RefactoringAction 1497034648153 BowlingGame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1497034648155 BowlingGame.java REMOVE getScore() METHOD
+RefactoringAction 1497034648156 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1497034664688 BowlingGame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1497034664691 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1497034664692 BowlingGame.java ADD String getNumberOfFrames() METHOD
+RefactoringAction 1497034664695 BowlingGame.java ADD String getScore() METHOD
+EditAction 1497034691261 BowlingGame.java 1587 6 11 0

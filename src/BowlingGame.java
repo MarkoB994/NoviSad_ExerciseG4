@@ -23,6 +23,9 @@ public class BowlingGame {
 	}
 	
 	// Sets the bonus throws at the end of the game
+	/* Koristio sam kao metodu koja se pozove prilikom dodavanja svakog frejma
+	 * i proverava da li je ostvaren neki od bonusa za Strike ili za Spare
+	 */
 	public void setBonus(int firstThrow, int secondThrow) {
 		if(bonusZaSpare){
 			rezultat += firstThrow;
