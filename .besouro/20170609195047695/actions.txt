@@ -17,3 +17,12 @@ RefactoringAction 1497031114245 Frame.java ADD String getSco FIELD
 RefactoringAction 1497031115777 Frame.java RENAME getSco=>String getScore FIELD
 RefactoringAction 1497031117321 Frame.java RENAME getScore=>String getScore() METHOD
 EditAction 1497031146178 Frame.java 758 8 8 0
+UnitTestCaseAction 1497031152550 TestBowling.java OK
+UnitTestSessionAction 1497031152552 TestBowling.java OK
+RefactoringAction 1497031179763 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497031182285 TestBowling.java RENAME test_=>void test_R FIELD
+RefactoringAction 1497031187303 TestBowling.java RENAME test_R=>void test_Rezultat FIELD
+RefactoringAction 1497031197328 TestBowling.java RENAME test_Rezultat=>void test_PoeniPrvog FIELD
+RefactoringAction 1497031199347 TestBowling.java RENAME test_PoeniPrvog=>void test_PoeniPrvogFrejm FIELD
+RefactoringAction 1497031200870 TestBowling.java RENAME test_PoeniPrvogFrejm=>void test_PoeniPrvogFrejma() METHOD
+EditAction 1497031379925 TestBowling.java 475 2 6 2
