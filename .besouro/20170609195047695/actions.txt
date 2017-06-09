@@ -6,3 +6,9 @@ RefactoringAction 1497030746042 TestBowling.java RENAME test_Po()=>void test_Poc
 RefactoringAction 1497030748058 TestBowling.java RENAME test_Pocetak()=>void test_PocetakPartije() METHOD
 FileOpenedAction 1497030978254 BowlingGame.java 708 4 1 0
 EditAction 1497031042554 TestBowling.java 292 1 3 1
+CompilationAction 1497031047076 TestBowling.java
+CompilationAction 1497031047078 TestBowling.java
+UnitTestCaseAction 1497031056468 TestBowling.java FAIL
+UnitTestSessionAction 1497031056470 TestBowling.java FAIL
+RefactoringAction 1497031070935 Frame.java ADD Frame() METHOD
+EditAction 1497031097187 Frame.java 699 7 7 0
