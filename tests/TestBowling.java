@@ -39,5 +39,10 @@ public class TestBowling {
 	public void test_ProveraPogresnihVrednostiDrugogBacanjaUFrejmu() throws BowlingException{
 		Frame frame = new Frame(7,5);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_ProveraNegativnihVrednostiPrvogBacanjaUFrejmu() throws BowlingException{
+		Frame frame = new Frame(-7,5);
+	}
 
 }
