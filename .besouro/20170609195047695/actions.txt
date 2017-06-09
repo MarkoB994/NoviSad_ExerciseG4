@@ -169,3 +169,7 @@ RefactoringAction 1497033979909 BowlingGame.java RENAME bonusZA=>boolean bonusZa
 RefactoringAction 1497033981451 BowlingGame.java RENAME bonusZaS=>boolean bonusZaSpare FIELD
 RefactoringAction 1497034060395 BowlingGame.java ADD int rezultat FIELD
 EditAction 1497034205515 BowlingGame.java 1167 5 8 0
+CompilationAction 1497034208470 TestBowling.java
+RefactoringAction 1497034238732 BowlingGame.java ADD String getScore FIELD
+RefactoringAction 1497034239761 BowlingGame.java RENAME getScore=>String getScore() METHOD
+EditAction 1497034252355 BowlingGame.java 1236 6 9 0

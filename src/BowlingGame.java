@@ -36,10 +36,15 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
-		return 0;
+		return rezultat;
 	}
 	
 	public String getNumberOfFrames(){
 		return frames.size() + "";
 	}
+	
+	public String getScore(){
+		return score() + "";
+	}
+	
 }
