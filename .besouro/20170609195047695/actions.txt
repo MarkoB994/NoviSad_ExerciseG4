@@ -173,3 +173,15 @@ CompilationAction 1497034208470 TestBowling.java
 RefactoringAction 1497034238732 BowlingGame.java ADD String getScore FIELD
 RefactoringAction 1497034239761 BowlingGame.java RENAME getScore=>String getScore() METHOD
 EditAction 1497034252355 BowlingGame.java 1236 6 9 0
+UnitTestCaseAction 1497034259102 TestBowling.java OK
+UnitTestSessionAction 1497034259103 TestBowling.java OK
+RefactoringAction 1497034288689 TestBowling.java ADD void test FIELD
+RefactoringAction 1497034290777 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497034293316 TestBowling.java RENAME test_=>void test_ProveraD FIELD
+RefactoringAction 1497034295355 TestBowling.java RENAME test_ProveraD=>void test_ProveraDobijenog FIELD
+RefactoringAction 1497034296915 TestBowling.java RENAME test_ProveraDobijenog=>void test_ProveraDobijenogBonu FIELD
+RefactoringAction 1497034298461 TestBowling.java RENAME test_ProveraDobijenogBonu=>void test_ProveraDobijenogBonusaN FIELD
+RefactoringAction 1497034300011 TestBowling.java RENAME test_ProveraDobijenogBonusaN=>void test_ProveraDobijenogBonusaNakon FIELD
+RefactoringAction 1497034302062 TestBowling.java RENAME test_ProveraDobijenogBonusaNakon=>void test_ProveraDobijenogBonusaNakonStrike FIELD
+RefactoringAction 1497034303110 TestBowling.java RENAME test_ProveraDobijenogBonusaNakonStrike=>void test_ProveraDobijenogBonusaNakonStrike() METHOD
+EditAction 1497034364140 TestBowling.java 3276 12 43 7
