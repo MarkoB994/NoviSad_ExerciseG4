@@ -203,3 +203,16 @@ RefactoringAction 1497034664695 BowlingGame.java ADD String getScore() METHOD
 EditAction 1497034691261 BowlingGame.java 1587 6 11 0
 EditAction 1497034740916 BowlingGame.java 1676 6 11 0
 EditAction 1497034746578 TestBowling.java 3302 12 43 7
+CompilationAction 1497034749236 TestBowling.java
+CompilationAction 1497034749237 TestBowling.java
+CompilationAction 1497034749238 TestBowling.java
+RefactoringAction 1497034777473 TestBowling.java ADD void test FIELD
+RefactoringAction 1497034779512 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497034912135 TestBowling.java RENAME test_=>void test_RE FIELD
+RefactoringAction 1497034913688 TestBowling.java RENAME test_RE=>void test_re FIELD
+RefactoringAction 1497034915252 TestBowling.java RENAME test_re=>void test_rezul FIELD
+RefactoringAction 1497034916295 TestBowling.java RENAME test_rezul=>void test_rezultat FIELD
+RefactoringAction 1497034919352 TestBowling.java RENAME test_rezultat=>void test_rezultatNakon FIELD
+RefactoringAction 1497034923890 TestBowling.java RENAME test_rezultatNakon=>void test_rezultatNakonDesetBacanja FIELD
+RefactoringAction 1497034924936 TestBowling.java RENAME test_rezultatNakonDesetBacanja=>void test_rezultatNakonDesetBacanja() METHOD
+EditAction 1497035590062 TestBowling.java 4042 13 57 8

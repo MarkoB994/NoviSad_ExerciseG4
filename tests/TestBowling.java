@@ -103,6 +103,25 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void 
+	public void test_rezultatNakonDesetBacanja() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(4,5));
+		//deseti frejm u kom je ostvaren spare samim tim i dodatno bacanje
+		game.addFrame(new Frame(4,6));
+		
+		String ocekivano = 91 + game.getBonus().getFirstThrow() + game.getBonus().getScore();
+		
+		String rezultat = game.getScore();
+		
+		assertEquals("Provera rezultata nakon 10 bacanja plus dodatno", ocekivano, rezultat);
+	}
 
 }
